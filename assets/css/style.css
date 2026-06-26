@@ -1,0 +1,87 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.training-section {
+  margin-top: 2rem;
+}
+
+.resource-grid,
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.resource-card,
+.video-card {
+  background: #ffffff;
+  border: 1px solid #d8e2ec;
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.resource-card h3,
+.video-card h3 {
+  margin-top: 0;
+  color: #155799;
+}
+
+.resource-list {
+  padding-left: 1.2rem;
+}
+
+.resource-list li {
+  margin-bottom: 1rem;
+}
+
+.resource-list a {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.mark-resource,
+#reset-resources {
+  background: #155799;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 0.8rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.mark-resource:hover,
+#reset-resources:hover {
+  background: #0f3f73;
+}
+
+.mark-resource.completed {
+  background: #2e7d32;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin: 1rem 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+#resource-progress {
+  color: #155799;
+}
