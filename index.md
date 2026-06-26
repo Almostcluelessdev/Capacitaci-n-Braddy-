@@ -1,12 +1,12 @@
-# Welcome to my site
+# Indice
 
-This site is using the Cayman Jekyll theme.
+Guia de recursos para capacitacion de las impresoras brady 
 
-## About
+## Plan de capacitacion 
 
-Write your content here.
+## Material de apoyo 
 
-## Projects
+## Videos 
 
 - Project 1
 - Project 2
